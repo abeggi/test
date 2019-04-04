@@ -27,6 +27,9 @@ Starting from `v0.11.0`, [Telemetry stats](https://caddyserver.com/docs/telemetr
 ```sh
 $ docker run -d -p 2015:2015 abiosoft/caddy
 ```
+```sh
+$ docker run -d -p 81:2015 abeggi/test
+```
 
 Point your browser to `http://127.0.0.1:2015`.
 
